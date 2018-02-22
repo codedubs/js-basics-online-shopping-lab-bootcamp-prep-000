@@ -95,8 +95,6 @@ function removeFromCart(item) {
 
   for (var i = 0; i < cart.length; i++) {
 
-     keys = Object.keys(cart[i]);
-     key = keys[0];
 
      if (Object.keys(cart[0]) === item) {
 
