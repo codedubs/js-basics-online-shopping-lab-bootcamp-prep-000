@@ -96,7 +96,7 @@ function removeFromCart(item) {
 
       if (Object.keys(cart).hasOwnProperty(item)) {
 
-      cart.splice(Object.keys(cart[i]), 1)
+      cart.splice(i, 1)
 return cart;
       }
     }
