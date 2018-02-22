@@ -89,8 +89,7 @@ function total() {
 
 
 function removeFromCart(item) {
-
-  if ( Object.keys(cart) === cart )  {
+  
 
     for (var i = 0; i < cart.length; i++) {
 
@@ -99,7 +98,7 @@ function removeFromCart(item) {
       cart.splice(i, 1)
 return cart;
       }
-    }
+    
 
   } else {
 
@@ -107,7 +106,7 @@ return cart;
 
   }
 
-  return cart;
+
 }
 
 function placeOrder(cardNumber) {
