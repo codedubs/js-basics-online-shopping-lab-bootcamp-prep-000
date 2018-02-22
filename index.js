@@ -101,7 +101,7 @@ for (var i = 0; i < cart.length; i++)  {
         }
 
 
-  } 
+  }
     console.log("That item is not in your cart.");
 
   }
