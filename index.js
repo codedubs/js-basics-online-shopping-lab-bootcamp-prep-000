@@ -92,7 +92,7 @@ function removeFromCart(item) {
 
   var keys = "";
   var key = "";
-  
+
   for (var i = 0; i < cart.length; i++) {
 
      keys = Object.keys(cart[i]);
@@ -102,7 +102,7 @@ function removeFromCart(item) {
 
        cart.splice(i, 1);
        return cart;
-       
+
      }
   }
    console.log("That item is not in your cart.");
