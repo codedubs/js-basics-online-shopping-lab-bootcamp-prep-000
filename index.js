@@ -91,21 +91,19 @@ function total() {
 function removeFromCart(item) {
 
 
-  var keys = "";
-   var key = "";
-   for(var i = 0; i < cart.length; i++){
+  for (var i = 0; i < cart.length; i++) {
+
      keys = Object.keys(cart[i]);
      key = keys[0];
-     if(key === item){
+     
+     if (key === item) {
+       
        cart.splice(i, 1);
        return cart;
-    }
-   }
-   console.log("That item is not in your cart.");
+     }
   }
-
-
-
+   console.log("That item is not in your cart.");
+ }
 
 
 function placeOrder(cardNumber) {
