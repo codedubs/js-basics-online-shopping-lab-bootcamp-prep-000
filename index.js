@@ -91,7 +91,7 @@ function total() {
 function removeFromCart(item) {
 
 
-  if (Object.keys(cart[i]) === item)  {
+  if (Object.keys(cart[0]) === item)  {
 
         for (var i = 0; i < cart.length; i++) {
 
