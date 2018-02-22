@@ -95,9 +95,9 @@ function removeFromCart(item) {
 
      keys = Object.keys(cart[i]);
      key = keys[0];
-     
+
      if (key === item) {
-       
+
        cart.splice(i, 1);
        return cart;
      }
