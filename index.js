@@ -98,10 +98,8 @@ for (var i = 0; i < cart.length; i++)  {
           cart.splice(i, 1)
           return cart;
 
-        }
+        } else {
 
-
-  }
     console.log("That item is not in your cart.");
 
   }
