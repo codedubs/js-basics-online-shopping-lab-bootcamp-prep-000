@@ -94,7 +94,7 @@ function removeFromCart(item) {
 
     for (var i = 0; i < cart.length; i++) {
 
-      if (Object.keys(cart).hasOwnProperty(item) && Object.keys(cart) === cart) {
+      if (Object.keys(cart[0]) ===item)  {
 
       cart.splice(i, 1)
 return cart;
